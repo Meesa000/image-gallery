@@ -1,8 +1,8 @@
 
 body {
-    border-radius: 100px;
+    margin: 0;
+    padding: 0;
 }
-
 
 
 /* ---- NAV BAR ---- */
@@ -10,31 +10,38 @@ body {
     display: flex;
     justify-content: flex-end;
     background-color: #1B1212;
-
-
+    padding: 1rem;
 }
 
 .nav-bar{
     display: flex;
     list-style-type: none;
     align-items: center;
-    
 }
 
 .nav-item {
     margin-right: 2rem;
-    
 }
 
 .nav-item a {
     text-decoration: none;
     color: white;
 }
+
+.nav-item a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
 .nav-header {
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 0;
     margin-right: auto;
     margin-left: 3rem;
     color: white;
 }
+
 
 /* ---- HERO CONTAINER ---- */
 
