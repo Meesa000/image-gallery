@@ -1,15 +1,18 @@
 
+body {
+    border-radius: 100px;
+}
+
+
 
 /* ---- NAV BAR ---- */
 .nav-container {
     display: flex;
     justify-content: flex-end;
-    border: solid 2px black;
-    background-color: black;
+    background-color: #1B1212;
+
 
 }
-
-
 
 .nav-bar{
     display: flex;
@@ -31,5 +34,47 @@
     margin-right: auto;
     margin-left: 3rem;
     color: white;
+}
+
+/* ---- HERO CONTAINER ---- */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2E5090;
+    color: white;
     
 }
+
+.hero-title {
+    margin-top: 4rem;
+    font-size: 40px;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.get-details-btn {
+    border: 2px solid white;
+    padding: 16px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    font-size: 24px;
+}
+
+.get-details-btn a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.get-details-btn:hover {
+    background-color: black;
+}
+
