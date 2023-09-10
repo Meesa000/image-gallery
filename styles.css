@@ -91,27 +91,51 @@ body {
     background-color: black;
 }
 
+
+/* ---- CARD-HEADER */
+.card-header-container  {
+    background-color: #131516;
+    color: white;
+    text-align: center;
+    
+}
+
+.card-header-container h1{ 
+    margin: 0px;
+    padding: 16px;
+}
+
 /* ---- CARD CONTAINER ---- */
 
 .card-container{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    background-color: #131516;
     
     
 }
 .wrapper {
     display: flex;
     flex-direction: column;
-    text-align: centerS;
+    text-align: center;
+    color: white;
 }
 
 .card {
     
    background: #252525;
-   width: 150px;
-   height: 150px;
-   border: 10px solid #69bf4a;
-   margin: 20px;
+   width: 330px;
+   height: 200px;
+   border: 2px solid black;
+   margin: 5px;
+   
+}
+
+.card-text {
+    margin-top: 0px;
+}
+
+.card:hover {
+    opacity: 0.5;
 }
 
